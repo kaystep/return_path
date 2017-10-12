@@ -1,0 +1,8 @@
+<h1>Enter your email body to be parsed</h1>
+
+<%= form_for(@email) do |f| %>
+	<%= f.label :entry %>
+    <%= f.text_field :entry %>
+
+    <%= f.submit "Submit", class: "btn btn-primary" %>
+<% end %>
